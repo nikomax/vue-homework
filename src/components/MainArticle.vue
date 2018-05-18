@@ -25,8 +25,6 @@
 <style lang="sass">
 .article
   padding-bottom: 50px
-  margin-bottom: 50px
-  border-bottom: 1px solid #e0e0e0
   &__title
     text-align: center
     margin-bottom: 15px
