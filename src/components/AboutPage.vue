@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <div class="container">
-      <h2>What We Are All About</h2>
+      <h2 class="common-title">What We Are All About</h2>
       <div class="text">
         <p>
           It’s not always easy to filter out noise and purely focus on the content. Too many blogs and news sites are
@@ -23,10 +23,47 @@
         </p>
       </div>
       <hr>
-      <h2>Meet Our Team!</h2>
+      <h2 class="common-title">Meet Our Team!</h2>
       <div class="team">
         <div class="team__item">
-          <team-item/>
+          <team-item team-avatar="/static/image.jpg"
+                     team-name="Kimberly Thompson"
+                     team-position="Founder & CEO">
+            Kimberly is the founder and the CEO of our company. With 10 years of experience in the tech industry, she
+            ensures all operations are running smoothly.
+          </team-item>
+        </div>
+        <div class="team__item">
+          <team-item team-avatar="/static/image.jpg"
+                     team-name="Rico Masi"
+                     team-position="Code Master">
+            There’s no challege Rico can’t tame! Making sure everything is safe and secure on the back
+            end, you can say that he’s the heart of this team.
+          </team-item>
+        </div>
+        <div class="team__item">
+          <team-item team-avatar="/static/image.jpg"
+                     team-name="Rico Masi"
+                     team-position="Code Master">
+            There’s no challege Rico can’t tame! Making sure everything is safe and secure on the back
+            end, you can say that he’s the heart of this team.
+          </team-item>
+        </div>
+        <div class="team__item">
+          <team-item team-avatar="/static/image.jpg"
+                     team-name="Rico Masi"
+                     team-position="Code Master">
+            There’s no challege Rico can’t tame! Making sure everything is safe and secure on the back
+            end, you can say that he’s the heart of this team.
+          </team-item>
+        </div>
+        <div class="team__item">
+          <team-item team-avatar="/static/image.jpg"
+                     team-name="Rico Masi"
+                     team-position="Code Master">
+            There’s no challege Rico can’t tame! Making sure everything is safe and secure on the back
+            end, you can say that he’s the heart of this team.
+          </team-item>
         </div>
       </div>
     </div>
@@ -35,6 +72,7 @@
 
 <script>
   import TeamItem from '@/components/TeamItem'
+
   export default {
     name: 'AboutPage',
     components: {
@@ -43,23 +81,15 @@
   }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
-  h1, h2 {
-    font-weight: normal;
-  }
+<style lang="sass">
+.team
+  display: flex
+  justify-content: center
+  flex-wrap: wrap
+  &__item
+    width: 33%
+    padding: 0 20px
+    margin-bottom: 60px
 
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
 
-  li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-
-  a {
-    color: #42b983;
-  }
 </style>

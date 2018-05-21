@@ -10,7 +10,7 @@
 </template>
 
 
-<style lang="sass">
+<style lang="sass" scoped>
 .nav
   &__item
     display: inline-block

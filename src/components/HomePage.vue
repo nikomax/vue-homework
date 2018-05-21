@@ -42,7 +42,6 @@
             views of both black and white iPad 2.
           </p>
         </main-article>
-        <hr>
       </div>
     </div>
   </div>

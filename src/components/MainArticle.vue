@@ -1,6 +1,6 @@
 <template>
   <article class="article">
-    <h2 class="article__title">
+    <h2 class="article__title common-title">
         {{ articleTitle }}
     </h2>
     <div class="article__date">
@@ -26,7 +26,6 @@
 .article
   padding-bottom: 50px
   &__title
-    text-align: center
     margin-bottom: 15px
   &__date
     text-align: center
